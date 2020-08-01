@@ -1,0 +1,7 @@
+Number of samples: 10000, number of features: 784
+
+If the number of clusters is 8, we can get the highest ARI score, v-measure score and the average
+silhouette score.
+However, given the number of clusters 10, we can reach out highest MRI score.
+In the figure which plotting Plot scores of all four evaluation metrics as functions of n_clusters
+in a single figure, each number of cluster's performance does not varies largely.

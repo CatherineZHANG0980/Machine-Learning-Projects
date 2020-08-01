@@ -1,0 +1,7 @@
+We need to preserve 113 dimensions to achieve PoV larger than 0.95.
+
+The original dimension is 28*28 = 784, we use PoV to estimate how many components are needed to
+describe the data. In the "digit_pov.jpg" and calculation, we see that with the digits the first
+113 components contain approximately 95% of the variance. This is the sense in which PCA provides
+a lower dimensional representation of the data: it discovers a set of basis components that are
+more efficient than the native pixel-basis of the input data.
